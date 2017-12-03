@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    position: relative;
+    font-family: verdana;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+nav > ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    font-size: 16px;
+    display: inline-block;
+    line-height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-right: 50px;
+}
+
+#contact-header {
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+}
+
+header > img {
+    width: 100%;
+}
+
+header > h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+section {
+    padding: 0;
+    margin-left: 10px;
+    line-height: inherit;
+}
+#about{
+    text-align: center;
+}
+footer {
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+ 
+
+}
+
+#contact-header {
+    padding: 20px;
+       text-align: center;
+}
+
+#contact-content {
+    text-align: center;
+    padding: 0;
+}
